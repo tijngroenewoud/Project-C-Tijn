@@ -1,0 +1,262 @@
+/*lettertype voor de hele website (webfont)*/
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/* zorgt ervoor dat het menu bovenaan vast zit en geen ruimte heeft aan de bovenkant*/
+.mainmenu {
+    position: fixed;
+    top: 0px;
+
+}
+
+body {
+    margin: 0;
+}
+
+/*achtergrond kleur van de menubalk*/
+nav {
+    background-color: #70B5F9;
+    height: 129px;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 60px;
+    float: left;
+    Width: 180px;
+
+}
+
+ul {
+    margin-left: 140px !important;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #023354;
+    font-weight: bold;
+    text-align: center;
+    padding: 55px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #2F9DF7;
+}
+
+.active {
+    background-color: #023354;
+    color: white;
+
+}
+
+.welkomstboodschap {
+    margin-left: 180px;
+    margin-top: 380px;
+    color: #023354;
+    line-height: 120%;
+}
+
+/*kleurfade voor "the world"*/
+.world {
+    -webkit-animation: color-change 6s infinite;
+    -moz-animation: color-change 6s infinite;
+    -o-animation: color-change 6s infinite;
+    -ms-animation: color-change 6s infinite;
+    animation: color-change 6s infinite;
+}
+
+@-webkit-keyframes color-change {
+    20% {
+        color: #023354;
+    }
+
+    40% {
+        color: #2F9DF7;
+    }
+
+    60% {
+        color: #70B5F9;
+    }
+
+    80% {
+        color: #bbff00;
+    }
+
+    100% {
+        color: #023354;
+    }
+}
+
+@-moz-keyframes color-change {
+    20% {
+        color: #023354;
+    }
+
+    40% {
+        color: #2F9DF7;
+    }
+
+    60% {
+        color: #70B5F9;
+    }
+
+    80% {
+        color: #bbff00;
+    }
+
+    100% {
+        color: #023354;
+    }
+}
+
+@-ms-keyframes color-change {
+    20% {
+        color: #023354;
+    }
+
+    40% {
+        color: #2F9DF7;
+    }
+
+    60% {
+        color: #70B5F9;
+    }
+
+    80% {
+        color: #bbff00;
+    }
+
+    100% {
+        color: #023354;
+    }
+}
+
+@-o-keyframes color-change {
+    20% {
+        color: #023354;
+    }
+
+    40% {
+        color: #2F9DF7;
+    }
+
+    60% {
+        color: #70B5F9;
+    }
+
+    80% {
+        color: #bbff00;
+    }
+
+    100% {
+        color: #023354;
+    }
+}
+
+@keyframes color-change {
+    20% {
+        color: #023354;
+    }
+
+    40% {
+        color: #2F9DF7;
+    }
+
+    60% {
+        color: #70B5F9;
+    }
+
+    80% {
+        color: #bbff00;
+    }
+
+    100% {
+        color: #023354;
+    }
+}
+
+.zoek1 {
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.zoek2 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.zoek1,
+.zoek2 {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-color: #bbff00;
+
+
+}
+
+::placeholder {
+    color: #CCCCCC;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #023354;
+    color: #bbff00;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: auto;
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.vertical-menu {
+    width: 200px;
+    margin-left: 43%;
+    margin-bottom: 60px;
+}
+
+.vertical-menu a {
+    background-color: #70B5F9;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #2F9DF7;
+}
+
+.vertical-menu a.active {
+    background-color: #2F9DF7;
+    color: white;
+}
+
+.logof {
+    Width: 80px;
+}
+
+.copyright,
+.logof {
+    float: center;
+}
